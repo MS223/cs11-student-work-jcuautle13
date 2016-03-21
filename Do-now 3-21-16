@@ -1,0 +1,15 @@
+import random
+random.randint(1, 4)
+random.randint(1, 4)
+print(random.randint(1, 4))
+print(random.randint(1, 4))
+print(random.randint(1, 4))
+# In comments:
+# What does randint do?
+# Randint chooses a random number from the list.
+# What do the values 0 and 3 do?
+# It identifies the numbers between 0 and 3.
+# Try changing those numbers, rerun the program, and write down what changed.
+# A different set of numbers are shown everytime I run the program because it chooses 3 random numbers between 1 and 4.
+# What is the difference between random.randint(0,3) and print(random.randint(0,3))?
+# random.randint(0,3) chooses random numbers that are between 0 and 3, while print(random.randit(0,3)) literally just prints an error because there's a "()" after print.
