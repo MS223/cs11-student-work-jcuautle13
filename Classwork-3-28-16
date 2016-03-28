@@ -1,0 +1,24 @@
+# def multiples (input):
+#     for fizz in input:
+#         if fizz % 3 == 0:
+#             print fizz
+#
+# def multiples (input):
+#     for buzz in input:
+#         if buzz % 5 == 0:
+#             print buzz
+
+def multiples (input):
+        for x in input:
+            if x % 3 == 0 and x % 5 == 0:
+                print "fizzbuzz"
+            elif x % 3 == 0:
+                print "fizz"
+            elif x % 5 == 0:
+                print "buzz"
+            else:
+                print x
+
+multiples(range(1,101))
+
+# You can check if a number is divisible by 3 by dividing the number by 0 so that it does not contain a remainder.
