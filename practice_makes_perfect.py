@@ -1,13 +1,16 @@
 def is_even(x):
     if (x % 2 == 0):
-        return True
+        print True
     else:
-        return False
-is_even(7)
+        print False
+is_even(2) # I got True
+is_even(3) # I got False
+
 
 def is_int(x):
-    if is_int == 0:
-        return True
+    if x == int(x):
+        print True
     else:
-        return False
-is_int(7.5)
+        print False
+is_int(7.5) # I got False
+is_int(2) # I got True
