@@ -12,3 +12,13 @@ def compare_lists(list1,list2):
         else:
             print list2[list1.index(x)]
 compare_lists(list1,list2)
+
+def swapping_stars():
+    height = 6
+    width = 3
+    for x in range (0, height):
+        if x % 2 == 1:
+            print "- * " * width
+        else:
+            print '* - ' * width
+swapping_stars()
