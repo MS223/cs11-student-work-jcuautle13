@@ -1,0 +1,3 @@
+print "hello"[1:] # The "[1:]" extracted the letter "h" from "hello because the number in the brackets was 1. The first letter from the word "hello" is "h". Thus, the bracket extracted the letter from the word.
+print "hello"[:4] # The "[:4]" extracted the "o" in "hello" because the number in the bracket was 4. The letter that matches the placement with 4 was "o".
+print "hello"[2:4] # The "[2:4]" means that it will start on the second letter (e) and then extract the fourth letter after (o).
