@@ -46,7 +46,8 @@ print_out_my_favorite(var_1)
 print(var_2)
 
 
-
-my_num = 3
-def add2():
-#Didn't finish.
+my_num= 4
+def multiply_num(multiplier):
+    my_num= 
+    print my_num
+multiply_num(3)
